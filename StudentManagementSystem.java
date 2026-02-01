@@ -22,7 +22,7 @@ public class StudentManagementSystem {
 		Scanner sc=new Scanner(System.in);
 		StudentManagementSystem obj=new StudentManagementSystem();
 		obj.loadFile();
-		System.out.println("Enter the userr id ");
+		System.out.println("Enter the user id ");
 		String user=sc.next();
 		System.out.println("Enter the password");
 		String s=sc.next();
